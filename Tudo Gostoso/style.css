@@ -1,0 +1,153 @@
+/* folha de estilização */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+ }
+
+ .container{
+  background-color: #f0f0f0;
+
+  padding: 24px 59px 63px;
+ }
+
+.main {
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  padding: 20px 26px 12px 27px;
+}
+
+
+.title {
+    color: #ff6A28; 
+    font-size: 28px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  }
+
+.description {
+  font-size: 16px;
+  font-family: sans-serif;
+  display:flex;
+
+  margin-bottom: 14px;
+}
+
+.image-principal {
+  width: 745px;
+  height: 389px;
+  left: 348px;
+  top: 102px;
+}
+
+.informatives {
+  display: flex;
+  gap: 9px;
+}
+
+.box-informative {
+  width: 118px;
+  height: 85px;
+
+  background-color: #f0f0f0;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person {
+  width: 238px;
+
+  flex-direction: row;
+}
+
+.person-wrapper {
+  margin-left: 11px;
+  display: flex;
+  flex-direction: column;
+}
+
+.informative-title {
+  color: #61656d;
+  font-size: 14px;
+  
+}
+
+.informative-emphasis {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ff6a28;
+
+  text-transform: uppercase;
+}
+
+.ingredients {
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  margin-top: 37px;
+  padding: 15px 27px 30px;
+  line-height: 30px;
+  
+}
+
+.ingredients-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.preparation{
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  margin-top: 37px;
+  padding: 15px 27px 30px;
+  line-height: 30px;
+}
+
+.preparation-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.informations {
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  margin-top: 37px;
+  padding: 15px 27px 30px;
+  line-height: 20px;
+
+}
+
+.informations-wrapper {
+  background-color: #f0f0f0;
+  justify-content: center;
+  display: flex;
+  height: 34px;
+  top: 1422px;
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.informations-title {
+  color: #61656D;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 9px;
+}
+
+
